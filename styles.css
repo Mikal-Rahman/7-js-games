@@ -1,0 +1,13 @@
+#grid {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid img {
+  width: 100px; /* Set the width of each image */
+  height: 100px; /* Set the height of each image */
+  object-fit: cover; /* Adjust how the images fill the container */
+  margin: 10px; /* Add some space between images */
+}
