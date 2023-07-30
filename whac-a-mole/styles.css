@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  flex: 1 0 30%;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+#score {
+  color: green;
+}
+
+#time-left {
+  color: red;
+}
+
+/* .mole must be under .square in order for the style to be applied */
+.mole {
+  flex: 1 0 30%;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background: #6918ac;
+  border-radius: 10px;
+}
